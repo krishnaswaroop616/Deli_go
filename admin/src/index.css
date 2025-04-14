@@ -1,0 +1,24 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+body{
+  min-height: 100vh;
+  
+}
+
+.app-components{
+  display: flex;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;;
+  gap: 10px;
+}

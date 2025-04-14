@@ -1,0 +1,45 @@
+.order-add {
+    /* padding: 0px 40px; */
+    background-color: #fff;
+    min-height: 100vh;
+    margin-left: 250px;
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .order-list {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 40px 40px 40px;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 60vw;
+    padding: 18px 24px;
+    border-radius: 12px;
+    background-color: #f8f9fa;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: none;
+  }
+  
+  .order-item i {
+    font-size: 24px;
+    color: #dc3545;
+  }
+  
+  .order-item-food {
+    flex: 1;
+    margin: 0 20px;
+    color: #333;
+  }
+  
+  .order-item p {
+    margin: 0;
+    font-size: 15px;
+  }

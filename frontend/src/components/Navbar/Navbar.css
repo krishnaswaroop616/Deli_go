@@ -1,0 +1,39 @@
+.navbar-profile {
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar-profile-dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px gray;
+    padding: 10px 0;
+    width: 120px;
+    display: none;
+    z-index: 100;
+}
+
+.navbar-profile:hover .navbar-profile-dropdown {
+    display: block;
+}
+
+.navbar-profile-dropdown li {
+    list-style: none;
+    padding: 0px 20px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 16px;
+    opacity: 0.8;
+    color: #333;
+    cursor: pointer;
+}
+
+.navbar-profile-dropdown li:hover {
+    opacity: 1;
+    font-size: 17px;
+}
+

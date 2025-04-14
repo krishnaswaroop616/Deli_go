@@ -1,0 +1,16 @@
+.my-orders-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.order-card {
+    border: 1px solid #eaeaea;
+}
+
+.order-item-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+}

@@ -1,0 +1,145 @@
+.Footer{
+    bottom: 0;
+    width: 100%;
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    display: flex;
+    gap: 50px;
+    width:100%;
+    padding: 30px 120px 40px;
+    height: 40vh;
+    flex: 1;
+}
+
+.footer h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #c55a11;
+}
+
+.footer p{
+    font-size: 15px;
+    font-weight: 200;
+    opacity: 0.7;
+}
+
+.footer-content{
+    width: 50%;
+}
+.footer-company{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.footer-company h3{
+    opacity: 0.9;
+    font-size: 20px;
+    font-weight: 700; 
+}
+
+.footer-company ul{
+    list-style: none;
+}
+
+.footer-company a{
+    line-height: 30px;
+    margin-left: 0;
+    display: block;
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+.footer-contact h3{
+    opacity: 0.9;
+    font-size: 20px;
+    font-weight:700 ;
+}
+
+.footer-company a:hover{
+    opacity: 1;
+}
+
+.footer-content-icons{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content-icons div{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    padding-top:7px;
+    border: 1px solid white;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.footer-content-icons div:hover{
+    opacity: 1;
+}
+
+
+.copyright{
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    
+}
+.copyright p{
+    margin-bottom: 0px;
+    padding-bottom:20px ;
+    text-align: center;
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+
+@media (max-width:750px) {
+    .footer{
+        display: flex;
+        flex-direction: row;
+        gap: 3px;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-content h1{
+        font-size: 40px;
+        margin: 50px;
+    }
+    .footer-content-icons{
+        display: none;
+    }
+    .footer-company h3{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    .footer-company a{
+        font-size: 10px;
+    }
+    .footer-contact h3{
+        margin-top: 20px;
+    }
+    .copyright{
+        display: none;
+    }
+}
+
+@media (max-width:421px) {
+    .footer-company{
+        display: none;
+    }
+    .footer{
+        width: 140vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-content h1{
+        margin: 0;
+    }
+}

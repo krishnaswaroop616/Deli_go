@@ -1,0 +1,11 @@
+.food-display {
+    padding: 40px 70px;
+}
+
+
+.food-display-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+}
